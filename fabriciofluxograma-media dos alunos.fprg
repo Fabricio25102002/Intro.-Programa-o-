@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="fabri"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-02-23 09:15:07 "/>
+        <attribute name="created" value="ZmFicmk7RkFCUklDSU87MjAyMy0xMC0yNTsiMDY6MTQ6MTMgIjsyMjc2"/>
+        <attribute name="edited" value="ZmFicmk7RkFCUklDSU87MjAyNC0wMi0yMzsiMDk6MTU6MDcgIjsyMTsyNDQx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="numero1, numero2, resultado" type="Integer" array="False" size=""/>
+            <output expression="&quot;digite numero&quot;" newline="True"/>
+            <input variable="numero1"/>
+            <output expression="&quot;digite o numero&quot;" newline="True"/>
+            <input variable="numero2"/>
+            <assign variable="resultado" expression="numero1*numero2"/>
+            <output expression="&quot;resultado&quot;&amp;resultado" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
