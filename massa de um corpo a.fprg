@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="fabri"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-01 09:35:21 "/>
+        <attribute name="created" value="ZmFicmk7RkFCUklDSU87MjAyNC0wMy0wMTsiMDg6MzA6MzEgIjsyMjcz"/>
+        <attribute name="edited" value="ZmFicmk7RkFCUklDSU87MjAyNC0wMy0wMTsiMDk6MzU6MjEgIjsyOzIzODc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="forca, massa, Ma, Mb, distacia, gravitacional" type="Real" array="False" size=""/>
+            <input variable="distacia"/>
+            <input variable="Mb"/>
+            <input variable="forca"/>
+            <assign variable="Ma" expression="(forca*distacia^2)/(Mb*6.6708*10^(-11))"/>
+            <output expression="Ma*1000" newline="False"/>
+        </body>
+    </function>
+</flowgorithm>
