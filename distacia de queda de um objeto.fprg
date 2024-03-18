@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="fabri"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-01 08:30:21 "/>
+        <attribute name="created" value="ZmFicmk7RkFCUklDSU87MjAyNC0wMy0wMTsiMDc6MzM6MTUgIjsyMjc3"/>
+        <attribute name="edited" value="ZmFicmk7RkFCUklDSU87MjAyNC0wMy0wMTsiMDg6MzA6MjEgIjsxOzIzODA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="tempo, aceleracao, distancia, velocidade" type="Real" array="False" size=""/>
+            <output expression="&quot;digite o tempo em segundos&quot;" newline="True"/>
+            <input variable="tempo"/>
+            <assign variable="velocidade" expression="9.8*tempo"/>
+            <assign variable="distancia" expression="velocidade*tempo"/>
+            <output expression="distancia*100" newline="False"/>
+        </body>
+    </function>
+</flowgorithm>
