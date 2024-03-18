@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="fabri"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-02-23 10:24:04 "/>
+        <attribute name="created" value="ZmFicmk7RkFCUklDSU87MjAyNC0wMi0yMzsiMDk6NTU6MDEgIjsyMjgx"/>
+        <attribute name="edited" value="ZmFicmk7RkFCUklDSU87MjAyNC0wMi0yMzsiMTA6MjQ6MDQgIjsxOzIzODA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="raio, altura, area, volume" type="Real" array="False" size=""/>
+            <input variable="raio"/>
+            <input variable="altura"/>
+            <assign variable="area" expression="(raio*pi)^2"/>
+            <assign variable="volume" expression="area*altura"/>
+            <output expression="&quot;o vulume e&quot; &amp;volume" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
