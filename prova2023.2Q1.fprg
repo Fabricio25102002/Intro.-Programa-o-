@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="fabri"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-21 04:29:50 "/>
+        <attribute name="created" value="ZmFicmk7RkFCUklDSU87MjAyNC0wMy0yMTsiMDQ6MDU6MDkgIjsyMjc4"/>
+        <attribute name="edited" value="ZmFicmk7RkFCUklDSU87MjAyNC0wMy0yMTsiMDQ6Mjk6NTAgIjsxOzIzODg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, s, t" type="Real" array="False" size=""/>
+            <input variable="s"/>
+            <assign variable="t" expression="((s)/9800)^(1/2)"/>
+            <output expression="t" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

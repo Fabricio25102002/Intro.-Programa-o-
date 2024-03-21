@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="fabri"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-21 04:58:29 "/>
+        <attribute name="created" value="ZmFicmk7RkFCUklDSU87MjAyNC0wMy0yMTsiMDQ6MzE6MDQgIjsyMjcy"/>
+        <attribute name="edited" value="ZmFicmk7RkFCUklDSU87MjAyNC0wMy0yMTsiMDQ6NTg6MjkgIjsxOzIzOTY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="f, kg, gramas, d" type="Real" array="False" size=""/>
+            <output expression="&quot;massa em gramas&quot;" newline="True"/>
+            <input variable="gramas"/>
+            <output expression="&quot;massa em kg&quot;" newline="True"/>
+            <input variable="kg"/>
+            <output expression="&quot;distancia&quot;" newline="True"/>
+            <input variable="d"/>
+            <assign variable="f" expression="6.67408*10^(-11)*(((gramas/1000)*kg)/d^2)"/>
+            <output expression="f" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
